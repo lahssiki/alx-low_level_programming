@@ -7,7 +7,7 @@ int op_div(int a, int b);
 int op_mod(int a, int b);
 
 /**
- * op_add.
+ * op_add- Returns the sum of two numbers..
  * @a: The first number.
  * @b: The second number.
  *
@@ -19,7 +19,7 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub.
+ * op_sub - Returns the difference of two numbers..
  * @a: The first number.
  * @b: The second number.
  *
@@ -31,7 +31,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul.
+ * op_mul - Returns the product of two numbers.
  * @a: The first number.
  * @b: The second number.
  *
@@ -43,7 +43,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div.
+ * op_div- Returns the quotient of two numbers..
  * @a: The first number.
  * @b: The second number.
  *
@@ -54,7 +54,7 @@ int op_div(int a, int b)
 	return (a / b);
 }
 /**
- * op_mod.
+ * op_mod - Returns the remainder of two numbers.
  * @a: The first number.
  * @b: The second number.
  *
