@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * get_op_func
+ * get_op_func.
  * @s: The operator passed as argument.
  *
  * Return: A pointer to the function corresponding.
