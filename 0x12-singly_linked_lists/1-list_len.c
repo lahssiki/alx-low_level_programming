@@ -4,19 +4,19 @@
  * list_len - Finds the number of elements in
  *            a linked list_t list.
  * @h: The linked list_t list.
- * @e: elements a counter var for size_t (nodes)
+ * @e: elements a counter var for size_t (nodes).
  *
  * Return: The number of elements in h.
  */
 size_t list_len(const list_t *h)
 {
-	size_t e = 0;
+	size_t eleme = 0;
 
 	while (h)
 	{
-		e++;
+		eleme++;
 		h = h->next;
 	}
 
-	return (e);
+	return (eleme);
 }
